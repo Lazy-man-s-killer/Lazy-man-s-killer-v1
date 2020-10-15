@@ -9,9 +9,5 @@
 """
 
 class LMSKException(IOError):
-    """There was an ambiguous exception that occurred while handling your
-    request.
-    """
-
     def __init__(self, *args, **kwargs):
         super(LMSKException, self).__init__(*args, **kwargs)
