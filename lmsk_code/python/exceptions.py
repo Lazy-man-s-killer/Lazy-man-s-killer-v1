@@ -14,5 +14,4 @@ class LMSKException(IOError):
     """
 
     def __init__(self, *args, **kwargs):
-        print("\033LMskError\033")
         super(LMSKException, self).__init__(*args, **kwargs)
