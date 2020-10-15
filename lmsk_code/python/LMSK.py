@@ -10,6 +10,7 @@
 import gpio,pigpio,RPi
 import requests
 import lmsk_code.python.exceptions as exp
+import tkinter
 from RPi import *
 
 __author__ = """ChenJiaJie(Chenjj100419)"""
@@ -17,4 +18,14 @@ __version__ = '1.0.0'
 
 
 class LazyManSKiller(object):
+    def __init__(self):
+        pass
+
+    def initPi(self):
+        pass
+
+    def runingPi(self):
+        pass
+
+if __name__ == '__main__':
     pass
