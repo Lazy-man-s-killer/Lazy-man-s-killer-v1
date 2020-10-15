@@ -18,5 +18,3 @@ __version__ = '1.0.0'
 
 class LazyManSKiller(object):
     pass
-
-raise exp.LMSKException("ErrorFuck")
